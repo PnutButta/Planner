@@ -8,6 +8,7 @@ target 'PlannerApp' do
   # Pods for PlannerApp
   pod 'CalendarLib'
   pod 'FSCalendar'
+  pod 'Parse'
 
   target 'PlannerAppUITests' do
     inherit! :search_paths

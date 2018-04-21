@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FB44E2D208BD1CB0037C84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E2C208BD1CB0037C84E /* AppDelegate.swift */; };
-		0FB44E2F208BD1CB0037C84E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E2E208BD1CB0037C84E /* FirstViewController.swift */; };
-		0FB44E31208BD1CB0037C84E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E30208BD1CB0037C84E /* SecondViewController.swift */; };
 		0FB44E34208BD1CB0037C84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB44E32208BD1CB0037C84E /* Main.storyboard */; };
 		0FB44E36208BD1CB0037C84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB44E35208BD1CB0037C84E /* Assets.xcassets */; };
 		0FB44E39208BD1CB0037C84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB44E37208BD1CB0037C84E /* LaunchScreen.storyboard */; };
@@ -31,8 +29,6 @@
 /* Begin PBXFileReference section */
 		0FB44E29208BD1CB0037C84E /* PlannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB44E2C208BD1CB0037C84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FB44E2E208BD1CB0037C84E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0FB44E30208BD1CB0037C84E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0FB44E33208BD1CB0037C84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FB44E35208BD1CB0037C84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB44E38208BD1CB0037C84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,8 +109,6 @@
 		0FB44E4E208BD1E30037C84E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FB44E2E208BD1CB0037C84E /* FirstViewController.swift */,
-				0FB44E30208BD1CB0037C84E /* SecondViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -251,17 +245,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PlannerApp/Pods-PlannerApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/CalendarLib/CalendarLib.framework",
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/OSCache/OSCache.framework",
 				"${BUILT_PRODUCTS_DIR}/OrderedDictionary/OrderedDictionary.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OSCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedDictionary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,9 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB44E31208BD1CB0037C84E /* SecondViewController.swift in Sources */,
 				0FB44E2D208BD1CB0037C84E /* AppDelegate.swift in Sources */,
-				0FB44E2F208BD1CB0037C84E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
