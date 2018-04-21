@@ -12,6 +12,8 @@
 		0FB44E36208BD1CB0037C84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB44E35208BD1CB0037C84E /* Assets.xcassets */; };
 		0FB44E39208BD1CB0037C84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB44E37208BD1CB0037C84E /* LaunchScreen.storyboard */; };
 		0FB44E44208BD1CC0037C84E /* PlannerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E43208BD1CC0037C84E /* PlannerAppUITests.swift */; };
+		0FB44E50208BED740037C84E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E4F208BED740037C84E /* LoginViewController.swift */; };
+		0FB44E52208BED7F0037C84E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB44E51208BED7F0037C84E /* SignUpViewController.swift */; };
 		486B9EA4A272B55FCAF52D29 /* Pods_PlannerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83694F55DF24CEF875823BF2 /* Pods_PlannerAppUITests.framework */; };
 		4D5539F9F57CA197B2FA6949 /* Pods_PlannerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C8BF9BC16061DC2EB924D7 /* Pods_PlannerApp.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,8 @@
 		0FB44E3F208BD1CC0037C84E /* PlannerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB44E43208BD1CC0037C84E /* PlannerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerAppUITests.swift; sourceTree = "<group>"; };
 		0FB44E45208BD1CC0037C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FB44E4F208BED740037C84E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0FB44E51208BED7F0037C84E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		254DCEDF956D4B6FCB8516D7 /* Pods-PlannerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlannerApp/Pods-PlannerApp.release.xcconfig"; sourceTree = "<group>"; };
 		53C8BF9BC16061DC2EB924D7 /* Pods_PlannerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83694F55DF24CEF875823BF2 /* Pods_PlannerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +113,8 @@
 		0FB44E4E208BD1E30037C84E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0FB44E4F208BED740037C84E /* LoginViewController.swift */,
+				0FB44E51208BED7F0037C84E /* SignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -354,6 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB44E52208BED7F0037C84E /* SignUpViewController.swift in Sources */,
+				0FB44E50208BED740037C84E /* LoginViewController.swift in Sources */,
 				0FB44E2D208BD1CB0037C84E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
