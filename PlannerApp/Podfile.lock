@@ -1,0 +1,21 @@
+PODS:
+  - CalendarLib (2.0):
+    - OrderedDictionary (~> 1.2)
+    - OSCache (~> 1.2)
+  - FSCalendar (2.7.9)
+  - OrderedDictionary (1.4)
+  - OSCache (1.2.1)
+
+DEPENDENCIES:
+  - CalendarLib
+  - FSCalendar
+
+SPEC CHECKSUMS:
+  CalendarLib: 040a8a655376581d8dc7c3c63196ddcf5223f471
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  OrderedDictionary: 138c8d2e358d3a0c9adda15c6c7db24e8e3b09e6
+  OSCache: 826996b68e8542a8a3d8af1ab0a0fc3070d8f357
+
+PODFILE CHECKSUM: f15263d1e3a08c08c431ed6ae1535e6b8148c05b
+
+COCOAPODS: 1.4.0
